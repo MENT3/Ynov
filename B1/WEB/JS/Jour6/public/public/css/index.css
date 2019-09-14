@@ -1,0 +1,11 @@
+header > div{
+  margin-top: 5px;
+}
+main > article{
+  margin-top: 3em;
+}
+#descImg{
+  margin: 1.2em 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}

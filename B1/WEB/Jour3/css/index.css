@@ -1,0 +1,84 @@
+main H1{
+  font-size: 3em;
+  text-align: center;
+  margin: 10px;
+}
+main{
+  display: grid;
+}
+main > section{
+  /* display: grid; */
+  position: relative;
+  grid-template-columns: 50% 50%;
+}
+main > section > section{
+  width: 100%;
+}
+p,a{
+  text-align: justify;
+  padding: 0 10px;
+}
+.mario{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50px;
+  left:838px;
+
+}
+.mario:hover{
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  top: 500px;
+  left:1200px;
+  transition: linear 0.3s
+}
+main table tr:nth-child(even){
+  background-color: lightgrey;
+}
+main table{
+  margin: 10px;
+  border : 1px solid lightgrey;
+}
+main
+.temoin{
+  height: 50px;
+  width: 80px;
+  background-color: fuchsia;
+}
+
+.test{
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  background-color: lightgreen;
+  bottom: 0px
+}
+
+.temoin:first-child{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.tableau_info{
+  position: absolute;
+
+}
+main section:nth-child(odd):hover{
+  background-color: lime;
+}
+body{
+  animation: text 1s infinite;
+}
+@@keyframes text {
+  0%{
+    color : black;
+  }
+  50%{
+    color : lime;
+  }
+  100%{
+    color : black;
+  }
+}

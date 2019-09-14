@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/signup.css">
+    <meta charset="utf-8">
+    <title>Création de compte</title>
+  </head>
+  <body>
+    <div class="Info_Inscription">
+      <form action="signup.html" method="post">
+        <label for="genre">Genre</label>
+        <select name="genre">
+          <option value="f">Madame</option>
+          <option value="h">Monsieur</option>
+          <option value="a">Autre</option>
+        </select>
+        <br>
+        <label for="firstname">Prénom</label>
+        <input  type="text"
+        name="firstname"
+        value=""
+        placeholder="Prénom"
+        required>
+        <br>
+        <label for="lastname">Nom</label>
+        <input  type="text"
+        name="lastname"
+        value=""
+        placeholder="Nom"
+        required>
+        <br>
+        <label for="birthdate">Date de naissance</label>
+        <input type="date" name="birthdate" placeholder="dd/mm/yyyy" value="" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Adresse mail" value="" required>
+        <br>
+        <label for="email">Numéro de téléphone</label>
+        <input type="tel" name="phone" placeholder="Téléphone" value="">
+        <br>
+        <label for="password">Mot de passe</label>
+        <input type="password" name="mot de passe" placeholder="Mot de passe" value="" required>
+        <br>
+        <label for="adress">Adresse</label>
+        <input type="text" name="adress" placeholder="Numéro et nom de rue" value="" required>
+        <input type="number" name="zipcode" placeholder="Code postal" value="" required>
+        <input type="text" name="city" placeholder="Ville" value="" required>
+        <br>
+        <label for="comment">Commantaire</label>
+        <textarea name="comment" rows="8" cols="80"></textarea>
+        <br>
+        <input type="checkbox" name="cgu" value="" required> J'accepte les conditions d'utilisation
+        <br>
+        <input type="radio" name="cgu" value=""> J'accepte les CGU
+        <input type="radio" name="cgu" value=""> J'accepte les CGU
+        <br>
+        <button type="submit" name="button">S'incrire</button>
+        <button type="reset" name="button">Vider les formulaire</button>
+        <input type="range" min="0" max="100" value="0">
+        <br>
+        <br>
+        <input type="color" name="" value="">
+      </form>
+    </div>
+  </body>
+</html>

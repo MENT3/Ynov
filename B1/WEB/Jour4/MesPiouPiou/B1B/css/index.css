@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Sarabun';
+    src: url( 'font/Sarabun-Regular.ttf' );
+}
+
+body {
+    /* background-color: #b38b6d; */
+}
+
+main p {
+    color: fuchsia;
+    font-size: 1.3em;
+    text-decoration: overline;
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+    text-indent: 4em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    font-family: 'Sarabun';
+    /* font-family: 'Libre Barcode 39 Text'; */
+}

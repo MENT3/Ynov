@@ -1,0 +1,33 @@
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main table tr:nth-child( even ) {
+    background-color: lightgrey;
+}
+
+main table {
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+}
+
+.pos {
+    position: relative;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.pos > div {
+    height: 60px;
+    width: 80px;
+    display: inline-block;
+    background-color: lightpink;
+}
+
+.test {
+    position: absolute;
+    opacity: 0.8;
+    top: 10px;
+    left: 40%;
+}

@@ -1,0 +1,19 @@
+main p {
+    text-decoration: line-through;
+    color: deeppink;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-indent: 6em;
+    line-height: 1.5em;
+
+    font-family: 'Felipa', cursive;
+}
+
+/*  -> Pour une police d'écriture en local
+@font-face {
+  font-family: 'Sarabun';
+  src: url('font/sarabun/Sarabun-Regular.ttf')
+} */

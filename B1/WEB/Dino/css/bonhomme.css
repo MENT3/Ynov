@@ -1,0 +1,117 @@
+body{
+  background-color: lightgrey;
+}
+.membre{
+  background-color: moccasin;
+  border-radius: 10px;
+}
+.corp{
+  height: 250px;
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  left: 600px;
+}
+.bras{
+  height: 200px;
+  width: 30px;
+  position: absolute;
+}
+#bras1{
+  top: 200px;
+  left: 565px;
+}
+#bras2{
+  top: 200px;
+  left: 755px;
+}
+.epaule{
+  width: 80px;
+  height: 50px;
+  position: absolute;
+}
+#epaule1{
+  top: 200px;
+  left: 580px;
+}
+#epaule2{
+  top: 200px;
+  left: 700px;
+}
+.jambe{
+  height: 250px;
+  width: 60px;
+  position: absolute;
+}
+#jambe1{
+  top: 400px;
+  left: 600px;
+}
+#jambe2{
+  top: 400px;
+  left: 690px;
+}
+.coup{
+  height: 50px;
+  width: 60px;
+  position: absolute;
+  top: 160px;
+  left: 645px;
+}
+.tete{
+  height: 110px;
+  width: 120px;
+  position: absolute;
+  top: 80px;
+  left: 615px;
+}
+/* .pied{
+  background-color: black;
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+#pied1{
+  top: 610px;
+  left: 600px;
+} */
+.yeux{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #FFF;
+  position: absolute;
+}
+#yeux1{
+  top: 110px;
+  left: 635px;
+}
+#yeux2{
+  top: 110px;
+  left: 695px;
+}
+.pupille{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+}
+#pupille1{
+  top: 115px;
+  left: 705px;
+}
+#pupille2{
+  top: 115px;
+  left: 645px;
+}
+.nez{
+  width: 4px;
+  height: 15px;
+  border-radius: 15%;
+  background-color: black;
+  position: absolute;
+  top: 135px;
+  left: 675px;
+}

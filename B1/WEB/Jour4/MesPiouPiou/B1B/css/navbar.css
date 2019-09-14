@@ -1,0 +1,60 @@
+/*
+Dimensions
+- px: Pixel -> 100px
+- % : Pourcentage -> 20%
+- em/rem : basé sur la font size -> 3rem
+
+ */
+
+header nav {
+    background-color: #CFD8DC;
+    height: 100px;
+}
+
+header nav ul {
+    height: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+    /* display: inline-flex; */
+    /* align-items:center; */
+
+    height: 100%;
+    /* padding: 0 20px; */
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #00000033;
+}
+
+header nav ul li a {
+    padding: 0 20px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    color: deeppink;
+    text-decoration: none;
+    font-size: 1.2em;
+
+    transition: background-color 0.2s linear;
+}
+
+header nav ul li a:hover {
+    background-color: #00000015;
+}
+
+/*
+header nav ul li a {
+    height: 100%;
+    width: 100%;
+
+    padding: 0 20px;
+
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} */

@@ -1,0 +1,59 @@
+header nav {
+    height: 100px;
+    background-color: #607D8B;
+}
+
+header nav ul {
+    height: 100%;
+}
+nav img{
+  position: absolute;
+  right: 15px;
+  top : 23px;
+  height: 50px;
+  width: 50px;
+}
+header nav ul li {
+    height: 100%;
+    display: inline-block;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #00000055;
+    /* Les trois lignes du dessus sont équivalentes à celle du dessous */
+    border-right: 1px solid #00000055;
+}
+header nav ul li a {
+  height: 100%;
+  padding: 0 30px;
+  display: inline-flex;
+  align-items: center;
+
+  text-decoration: none;
+  color : #FFF;
+  font-size: 1.2em;
+
+  transition: background-color 0.3s linear;
+}
+header nav ul li a:hover{
+  background-color: #000FFF10;
+}
+.login{
+  position: absolute;
+  right: 0px;
+  padding: 0;
+  margin: 2px 5px;
+  transition: transform 2s linear;
+}
+/* #avatar :not(:hover) .login{
+  transform: translateX(100px);
+}
+#avatar:hover .login{
+  background-color: lime;
+}
+img:hover span{
+  /* transform: translateY(-100px); */
+  color : red;
+}
+#avatar:not(:hover) + .login{
+  display: none;
+}

@@ -1,0 +1,16 @@
+main {
+    display: flex;
+}
+
+main > section {
+    width: 100%;
+}
+
+main table tr:nth-child( even ) {
+    background-color: lightgrey;
+}
+
+main table {
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+}

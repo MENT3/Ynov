@@ -1,0 +1,64 @@
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+main table{
+  position: absolute;
+  border: 1px solid red;
+  left: -250px;
+  transition: transform 0.5s linear;
+}
+.test {
+    position: relative;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.temoin {
+    height: 50px;
+    width: 80px;
+    background-color: fuchsia;
+}
+
+.temoin:first-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+main section{
+  overflow: hidden;
+}
+main section:nth-child(odd):not(:first-child):hover table{
+  transform: translateX(300px);
+}
+.temoin{
+  position: relative;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+}
+.test{
+  text-align: center;
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  background-color: fuchsia;
+}
+.test:first-child{
+  right: 0;
+  transition: transform 0.2s linear;
+}
+.temoin:not(:hover) .test:first-child{
+  /* transform: translateY(-60px); */
+}
+.overflow{
+  margin: 0;
+  padding: 5px;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-align: justify;
+  height: 200px;
+  width: 50%;
+  overflow: scroll;
+}

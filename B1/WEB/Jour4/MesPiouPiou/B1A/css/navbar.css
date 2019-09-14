@@ -1,0 +1,38 @@
+header nav {
+    height: 100px;
+    background-color: #607D8B;
+}
+
+header nav ul {
+    height: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+
+    height: 100%;
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #00000055;
+    /* Les trois lignes du dessus sont équivalentes à celle du dessous */
+    border-right: 1px solid #00000055;
+}
+
+header nav ul li a {
+    display: inline-flex;
+    align-items:center;
+
+    height: 100%;
+    padding: 0 30px;
+
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 1.2em;
+
+    transition: background-color 2s linear;
+}
+
+header nav ul li a:hover {
+    background-color: #ffffff;
+}

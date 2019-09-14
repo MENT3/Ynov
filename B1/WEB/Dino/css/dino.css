@@ -1,0 +1,240 @@
+body{
+  background-color: lightgrey;
+  position: relative;
+}
+.corp{
+  width: 180px;
+  height: 100px;
+  background-color: #013E0A;
+  border-radius: 10%;
+
+  position: absolute;
+  top: 300px;
+  left: 600px;
+}
+.coup{
+  width: 30px;
+  height: 150px;
+  background-color: #013E0A;
+  border-radius: 10%;
+
+  position: absolute;
+  top: 200px;
+  left: 620px;
+}
+.tete{
+  width: 130px;
+  height: 80px;
+  background-color: #013E0A;
+  border-radius: 10%;
+
+  position: absolute;
+  top: 170px;
+  left: 600px;
+}
+.oeuil{
+  height: 40px;
+  width: 40px;
+  background-color: beige;
+  border-radius: 50%;
+}
+#oeuil1{
+  position: absolute;
+  top: 150px;
+  left: 620px;
+}
+#oeuil2{
+  position: absolute;
+  top: 150px;
+  left: 650px;
+  z-index: -1;
+}
+.retine{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+#retine1{
+  position: absolute;
+  top: 170px;
+  left: 640px;
+  z-index: 2;
+}
+#retine2{
+  position: absolute;
+  top: 155px;
+  left: 670px;
+  /* z-index: 2; */
+}
+.nez{
+  height: 6px;
+  width: 6px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 178px;
+  left: 695px;
+}
+.dent{
+  /* background-color: transparent; */
+  border: 10px solid beige;
+  border-color: beige transparent transparent transparent;
+}
+#dent1{
+  position: absolute;
+  top: 220px;
+  left: 670px;
+}
+#dent2{
+  position: absolute;
+  top: 220px;
+  left: 690px;
+}
+#dent3{
+  position: absolute;
+  top: 220px;
+  left: 710px;
+}
+.queue{
+  width: 0px;
+  height: 50px;
+  border-top: 30px solid #013E0A;
+  border-right: 250px solid transparent;
+
+  position:absolute;
+  top: 300px;
+  left: 700px;
+}
+.cuisseGauche{
+  height: 100px;
+  width: 40px;
+  background-color: #013E0A;
+  border-radius: 30%;
+  box-shadow: -1px -1px 0px 0px rgba(0,0,0,0.75);
+
+  position: absolute;
+  top: 350px;
+  left: 700px;
+}
+.cuisseDroite{
+  height: 100px;
+  width: 40px;
+  background-color: #002506;
+  border-radius: 30%;
+  z-index: -1;
+
+  position: absolute;
+  top: 350px;
+  left: 660px;
+}
+.tibiaGauche{
+  height: 80px;
+  width: 20px;
+  background-color: #013E0A;
+  border-radius: 30px;
+
+  position: absolute;
+  top: 415px;
+  left: 730px;
+}
+.tibiaDroit{
+  height: 80px;
+  width: 20px;
+  background-color: #002506;
+  border-radius: 30px;
+  z-index: -1;
+
+  position: absolute;
+  top: 415px;
+  left: 685px;
+}
+.doigt{
+  height: 10px;
+  width: 10px;
+  background-color: #003108;
+  border-radius: 50%;
+
+}
+#doigt1{
+  position: absolute;
+  top: 487px;
+  left: 724px;
+}
+#doigt2{
+  position: absolute;
+  top: 487px;
+  left: 732px;
+}
+#doigt3{
+  position: absolute;
+  top: 487px;
+  left: 740px;
+}
+#doigt4{
+  position: absolute;
+  top: 487px;
+  left: 679px;
+}
+#doigt5{
+  position: absolute;
+  top: 487px;
+  left: 687px;
+}
+#doigt6{
+  position: absolute;
+  top: 487px;
+  left: 695px;
+}
+.toute_tete > *{
+    animation: headmove 1s infinite;
+}
+@keyframes headmove {
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: none;
+  }
+}
+nav{
+  height: 30px;
+  position: relative;
+}
+nav ul{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+nav ul li{
+  font-size: 1.5em;
+  margin : 0 10px;
+  display: inline-flex;
+  flex-direction: row;
+  font-family: monospace;
+  font-weight: 27;
+}
+nav img{
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width:920px){
+  nav img{
+    display: block;
+    position: absolute;
+    top: 10%;
+  }
+  nav ul{
+    position: absolute;
+    display: none;
+  }
+  .visible{
+    display: grid;
+  }
+
+}
